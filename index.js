@@ -98,7 +98,7 @@ tgbot.start(ctx => ctx.replyWithMarkdown(`Hey **${ctx.message.from.first_name}**
   {disable_web_page_preview: true,
    reply_markup:{
     inline_keyboard: [[{text:'Help and Support', url:'https://t.me/i_am_albin_praveen'}]],
-                      [{text:'Developer', url:'https://ALBINPRAVEEN.ml'}]]
+                      [[{text:'Developer', url:'https://ALBINPRAVEEN.ml'}]]
   }}
 ));
 tgbot.command('donate', ctx => { // Donate Command
